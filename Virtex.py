@@ -158,7 +158,7 @@ def menu():
       menu()
   elif choice == '3' or choice == '03':
     os.system('clear')
-    print (f"{logo}\n{g}INFO SCRIPT\n========================\n{p}[{y}✓{p}] {c}CODING: {g}EVAN KRISTANTO\n{p}[{y}✓{p}] {c}Team  : {colors()}TNT {colors()}ANONYMOUS {r}INDO{w}NESIA\n{p}[{y}✓{p}] {c}Script: {colors()}{os.path.basename(sys.argv[0])}\n{p}[{y}✓{p}] {c}Path  : {os.path.realpath(sys.argv[0])}\n{p}[{y}✓{p}] {c}Size  : {os.stat(os.path.realpath(sys.argv[0])).st_size} Byte\n{p}[{y}✓{p}] {c}Link  : {colors()}https://github.com/EVANKRISTANTO/pirtexwa\n{p}[{y}✓{p}] {c}Update: {colors()}{UPDATE}\n{p}[{y}✓{p}] {c}Versi : 1.1")
+    print (f"{logo}\n{g}INFO SCRIPT\n========================\n{p}[{y}✓{p}] {c}CODING: {g}EVAN KRISTANTO\n{p}[{y}✓{p}] {c}Team  : {colors()}TNT {colors()}ANONYMOUS {r}INDO{w}NESIA\n{p}[{y}✓{p}] {c}Script: {colors()}{os.path.basename(sys.argv[0])}\n{p}[{y}✓{p}] {c}Path  : {os.path.realpath(sys.argv[0])}\n{p}[{y}✓{p}] {c}Size  : {os.stat(os.path.realpath(sys.argv[0])).st_size} Byte\n{p}[{y}✓{p}] {c}Link  : {colors()}https://github.com/EVANKRISTANTO/pirtexwa{p}[{y}✓{p}] {c}Update: {colors()}{UPDATE}\n{p}[{y}✓{p}] {c}Versi : 1.1\n\n{g}Contact Me ^_^\n==================\n{p}[{y}✓{p}] {c}Github: {colors()}https://github.com/EVANKRISTANTO/\n{p}[{y}✓{p}] {c}Fb.   : {colors()}000\n{p}[{y}✓{p}] {c}Wa.   : {colors()}+62 81380826572\n{p}[{y}✓{p}] {c}Email : {colors()}evandeveloper1@gmail.com\n{a}")
   elif choice == '00' or choice == '0':
     os.abort()
   else:
